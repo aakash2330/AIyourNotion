@@ -47,7 +47,7 @@
 //     let reqSuccessful = true;
 //     const body = await req.json()
 //     console.log(body)
-//     const notion = new Client({ auth:"secret_sKLbBIfkZwp8K9DjfsyOZ6PGybPsPYUYVTbKmcvHet2" });
+//     const notion = new Client({ auth:"" });
 
 //     async function getPageData(){ // retrieve title of the page from url
 //         var retrievedPage = await notion.pages.retrieve({ page_id: '14596e03169740548159caa0658ca4a8' });
@@ -66,7 +66,7 @@
 //         //     topic: "values.topic",
 //         //     trancriptSummary: "youtubeData.summary",
 //         //     videoId: "youtubeData.videoId",
-//         //     notionKey: "secret_sKLbBIfkZwp8K9DjfsyOZ6PGybPsPYUYVTbKmcvHet2"
+//         //     notionKey: ""
 //         //   })
 
 //     }catch{
